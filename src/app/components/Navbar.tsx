@@ -16,8 +16,8 @@ export default function Navbar() {
           </Link>
         </li>
         <li className='navItem'>
-          <Link href="/history">
-            History
+          <Link href="/exercises">
+            Exercises
           </Link>
         </li>
       </ul>
