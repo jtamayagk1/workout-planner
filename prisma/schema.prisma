@@ -11,3 +11,9 @@ model exercises {
   id   Int     @id(map: "id") @default(autoincrement())
   name String?
 }
+
+model workouts {
+  id        Int     @id(map: "workouts_id") @default(autoincrement())
+  name      String?
+  exercises Json?
+}
